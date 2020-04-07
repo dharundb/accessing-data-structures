@@ -1,0 +1,22 @@
+#1.ASSIGNING ELEMENTS TO DIFFERENT LISTS:
+
+a=[]
+n=int(input())
+#n is the number of elements you wanna enter in the list
+for i in range(n):
+    a.append(int(input())
+#to add an element:
+a.append(int(input()))
+
+#2.ACCESSING ELEMENTS FROM A TUPLE:
+
+a=(1,2,3,4)
+#to access an element use the index of that element
+i=int(input())
+print(a[i])
+
+#3.DELETING DICTIONARY ELEMENTS
+
+#for example:
+a={'hi':1,'bye':2}
+del a['hi']
